@@ -23,7 +23,7 @@ iframe{
     display:none;
     background: rgba(0, 0, 0, 0.7);
     box-shadow:0 26px 42px rgba(255, 255,255, 0.3) ;
-    position: absolute;
+    position: fixed;
     z-index:-1;
     margin-top: -25px !important;
     margin: auto;
