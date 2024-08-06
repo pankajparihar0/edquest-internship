@@ -16,7 +16,7 @@ text-decoration: none !important;
     float: right;
 }
 iframe{
-    margin-top: 25px;
+    margin-top: 15px;
     background: black;
 }
 .box{
@@ -25,10 +25,11 @@ iframe{
     box-shadow:0 26px 42px rgba(255, 255,255, 0.3) ;
     position: absolute;
     z-index:-1;
+    margin-top: -25px !important;
     margin: auto;
     width: 90% !important;
-    height: 90%;
-    padding: 10px 40px !important;
+    height: 93%;
+    padding: 0 40px !important;
     left: 50%;
     translate: -50% 0;
 }
