@@ -1,0 +1,48 @@
+body{
+    background:linear-gradient(to right,#12c2e9,#c471ed,#f64f59) !important;
+}
+*{
+    box-sizing: border-box;
+}
+
+a{
+color: black !important;
+text-decoration: none !important;
+}
+.icon{
+    size:50px;
+    font-size: 2rem;
+    color: beige;
+    float: right;
+}
+iframe{
+    margin-top: 10px;
+}
+.box{
+    display: none;
+    background: rgba(0, 0,0, 0.7);
+    position: absolute;
+    z-index:-1;
+    width: 100% !important;
+    height: 100%;
+    padding: 20px;
+}
+.screen{
+    max-width: 720px !important;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: auto;
+}
+.member{
+    margin-top: 15px !important;
+    margin: auto;
+    max-width: 220px !important;
+    background: rgba(250, 250, 250, 0.2);
+    box-shadow:0 26px 42px rgba(0, 0,0, 0.3) ;
+    padding:15px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
