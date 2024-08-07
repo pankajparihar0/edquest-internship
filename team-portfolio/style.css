@@ -49,6 +49,7 @@ iframe{
     padding:15px;
 }
 h2{
+    margin-top: 8px !important;
     font-size:medium !important;
     font-style: oblique;
     font-weight: 400;
@@ -56,4 +57,9 @@ h2{
 img{
     max-width: 100%;
     height: auto;
+    overflow: hidden;
+}
+.member-img:hover{
+    transform: scale(1.1);
+    transition-duration: 1S;
 }
