@@ -8,13 +8,19 @@ let di=function (){
     pr.classList.add('row');
     document.getElementById('box').style.zIndex=100;
     document.getElementById('box').style.display="block";
+    box.focus();
+    box.addEventListener('focusout', cls, true);
 
 };
 let cls=function(){
+    screen.classList.remove('col-sm-3');
+    box.classList.remove('col-sm-9');
+    pr.classList.remove('row');
     document.getElementById('box').style.display='none';
     document.getElementById('box').style.zIndex=-1;
     document.getElementById('portfolio').src="";
 }
+
 document.getElementById("close").addEventListener('click',()=>{
     console.log("gcx");
     screen.classList.remove('col-sm-3');
@@ -23,4 +29,5 @@ document.getElementById("close").addEventListener('click',()=>{
     document.getElementById('box').style.display='none';
     document.getElementById('box').style.zIndex=-1;
     document.getElementById('portfolio').src="";
+    
 })
