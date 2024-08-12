@@ -8,8 +8,8 @@ let di=function (){
     pr.classList.add('row');
     document.getElementById('box').style.zIndex=100;
     document.getElementById('box').style.display="block";
-    box.focus();
-    box.addEventListener('focusout', cls, true);
+    // box.focus();
+    // box.addEventListener('focusout', cls, true);
 
 };
 let cls=function(){

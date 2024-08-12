@@ -43,13 +43,16 @@ iframe{
 }
 .screen{
     max-width: 720px !important;
+    height:90vh;
+    padding-bottom: 20px;
+    overflow: scroll;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    margin:60px auto;
-    transition: 2s cubic-bezier(0.38,0.04,0.11,0.74) linear;
+    margin:5vh auto;
+    scrollbar-width: none;
+    /* transition: 2s cubic-bezier(0.38,0.04,0.11,0.74) linear; */
 }
-
 .member{
     margin-top: 15px !important;
     margin: auto;
@@ -60,7 +63,7 @@ iframe{
     transition: 0.7s cubic-bezier(0.25,-01.22, 0.165, 1);
 }
 .member:hover {
-    background: rgba(20, 18, 18, 0.5); 
+    background: rgba(255, 255, 255, 0.8); 
     box-shadow: 0 36px 52px rgba(0, 0, 0, 0.4); 
     max-width: 235px !important;
 }
@@ -74,4 +77,12 @@ h2{
 img{
     max-width: 100%;
     height: auto;
+}
+.screen:hover .member:not(:hover){
+    filter:brightness(0.6);
+}
+@media (max-width:770px){
+    .col-sm-3{
+        display: none;
+    }
 }
