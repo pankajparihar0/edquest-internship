@@ -32,6 +32,7 @@ for(let i=0;i<9;i++){
     card.appendChild(cards);
 }
 function flip(){
+    document.getElementById('start').style.display='none';
     const id = this.getAttribute('id');
     this.setAttribute("style","background-color:"+color[id]);
     selectedcard.push(id);
