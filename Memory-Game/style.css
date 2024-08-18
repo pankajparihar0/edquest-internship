@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(23, 24, 72);
+}
+.field{
+    margin: auto;
+}
+.score{
+    color: beige;
+    max-width:650px ;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-between;
+    padding: 4px;
+}
+.card{
+    margin: auto;
+    max-width: 650px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.cards{
+    margin: 5px;
+    padding: 2px;
+    width: 30%;
+    aspect-ratio: 1/1;
+    background-color: black;
+}
