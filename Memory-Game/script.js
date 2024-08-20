@@ -14,6 +14,9 @@ function time(){
     let x = setInterval(()=>{
          t= document.getElementById('time').innerText;
         document.getElementById('time').innerHTML = --t;
+        if(score == 4){
+            clearInterval(x);
+        }
         console.log(t)
         if(t==0){
             if(score!=4)
@@ -63,6 +66,5 @@ function check(){
     if(score == 4){
         window.alert("You Won.");
         location.reload();
-         
     }
 }
